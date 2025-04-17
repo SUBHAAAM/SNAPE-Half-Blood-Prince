@@ -1,0 +1,46 @@
+/* Import the Harry Potter font */
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Harry Potter', sans-serif;
+  background-image: url('patronus.jpg'); /* Upload this image to your GitHub repo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* Glassmorphism effect */
+.container {
+  max-width: 850px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+h1 {
+  color: #f4d03f; /* Mustard Yellow */
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  color: #f4d03f;
+  margin-top: 2rem;
+}
+
+p {
+  margin: 1rem 0;
+  color: white;
+}
